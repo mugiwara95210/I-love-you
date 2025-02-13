@@ -16,7 +16,7 @@ const CONFIG = {
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓', '🐻‍❄️', '🦛'],  // Heart emojis
         bears: ['🧸', '🐻', '❤️', '💖', '💝', '💗', '💓', '🐻‍❄️', '🦛]                       // Cute bear emojis
-    },
+    }
 
     // Questions and answers
     // Customize each question and its possible responses
@@ -37,7 +37,7 @@ const CONFIG = {
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No😞"                                                 // Text for "No" button
         }
-    },
+    }
 
     // Love meter messages
     // They show up depending on how far they slide the meter
@@ -45,14 +45,14 @@ const CONFIG = {
         extreme: "my fucking god woman thats a bit much?? 😭😭😭❤️❤️❤️❤️",  // Shows when they go past 5000%
         high: "you cant get rid of me, FOREVER",              // Shows when they go past 1000%
         normal: "FOREVER 🥰"                           // Shows when they go past 100%
-    },
+    }
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "I'm the luckiest person in the world, and i dont know what i would do without you my love 🐻‍❄️❤️🦛",
         message: "from the bottom of my heart, I love you❤️",
         emojis: "💖🤗💝💋❤️💕❤️😘😍😊🥰💕💙💜💗🖤🖤🖤💛💖💖💞💚❣️💓😻💘💝💌"  // These will bounce around
-    },
+    }
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
@@ -62,13 +62,13 @@ const CONFIG = {
     buttonBackground: "#ff6b6b",     // Button color
     buttonHover: "#ff8787",          // Button hover color
     textColor: "#ff4757"            // Text color
-    },
+    }
 
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "16s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "100px",          // How far hearts move sideways (30-70px recommended)
+        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
@@ -81,9 +81,9 @@ const CONFIG = {
         musicUrl: "https://res.cloudinary.com/dcwyc3xak/video/upload/v1739440704/Ed_Sheeran_-_Perfect_m0hv9b.mp3", // Music streaming URL
         startText: "🎵 hit the Music",        // Button text to start music
         stopText: "🔇 EWWWW stop",         // Button text to stop music
-        volume: 1.0                        // Volume level (0.0 to 1.0)
+        volume: 0.5                        // Volume level (0.0 to 1.0)
     }
-};
+
 
 // Don't modify anything below this line unless you know what you're doing
 window.VALENTINE_CONFIG = CONFIG; 
